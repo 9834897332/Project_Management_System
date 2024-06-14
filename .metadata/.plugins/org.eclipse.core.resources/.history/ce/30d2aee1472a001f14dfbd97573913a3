@@ -1,0 +1,5 @@
+package com.kartik.config;
+
+public class JwtTokenValidator {
+
+}

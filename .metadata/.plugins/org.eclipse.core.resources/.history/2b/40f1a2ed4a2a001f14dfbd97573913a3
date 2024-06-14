@@ -1,0 +1,9 @@
+package com.kartik.repository;
+
+import org.springframework.data.jpa.repository.support.JpaRepositoryFactory;
+
+import com.kartik.model.User;
+
+public class UserRepository extends JpaRepositoryFactory <User,Long> {
+
+}
