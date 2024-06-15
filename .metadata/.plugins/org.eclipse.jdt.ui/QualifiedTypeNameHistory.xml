@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.util.Date"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.context.SecurityContextHolder"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.Authentication"/>
+    <fullyQualifiedTypeName name="com.kartik.response.AuthResponse"/>
+    <fullyQualifiedTypeName name="com.kartik.request.LoginRequest"/>
+    <fullyQualifiedTypeName name="org.springframework.security.core.userdetails.UserDetails"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="com.kartik.config.JwtProvider"/>
+    <fullyQualifiedTypeName name="com.kartik.service.ProjectService"/>
+    <fullyQualifiedTypeName name="jakarta.mail.internet.MimeMessage"/>
+    <fullyQualifiedTypeName name="java.util.UUID"/>
+    <fullyQualifiedTypeName name="com.kartik.repository.InviteRequest"/>
+    <fullyQualifiedTypeName name="com.kartik.model.Invitation"/>
+    <fullyQualifiedTypeName name="com.kartik.DTO.issueDTO"/>
+    <fullyQualifiedTypeName name="org.apache.catalina.User"/>
+    <fullyQualifiedTypeName name="java.util.Optional"/>
+    <fullyQualifiedTypeName name="com.kartik.model.Issue"/>
+    <fullyQualifiedTypeName name="com.kartik.request.CreateCommentRequest"/>
+    <fullyQualifiedTypeName name="com.kartik.model.Comment"/>
+    <fullyQualifiedTypeName name="com.kartik.response.MessageResponse"/>
+    <fullyQualifiedTypeName name="com.kartik.repository.UserRepository"/>
+    <fullyQualifiedTypeName name="com.kartik.repository.MessageRepository"/>
+    <fullyQualifiedTypeName name="com.kartik.model.Chat"/>
+    <fullyQualifiedTypeName name="com.kartik.service.MessageService"/>
+    <fullyQualifiedTypeName name="com.kartik.model.Message"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="org.springframework.data.annotation.Id"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.Id"/>
+    <fullyQualifiedTypeName name="java.time.LocalDate"/>
+    <fullyQualifiedTypeName name="com.kartik.service.UserService"/>
+    <fullyQualifiedTypeName name="com.kartik.service.SubscriptionService"/>
+    <fullyQualifiedTypeName name="com.kartik.model.Subscription"/>
+    <fullyQualifiedTypeName name="lombok.Value"/>
+    <fullyQualifiedTypeName name="com.kartik.model.PlanType"/>
+    <fullyQualifiedTypeName name="com.kartik.model.User"/>
+    <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+</qualifiedTypeNameHistroy>

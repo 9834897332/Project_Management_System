@@ -1,0 +1,31 @@
+package com.kartik.service;
+
+import com.kartik.model.User;
+
+public class UserServiceImpl implements UserService {
+
+	@Override
+	public User findUserProfileByJwt(String jwt) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User findUserByEmail(String email) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User findUserById(Long userId) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public User updateUserProjectSize(User user, int number) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

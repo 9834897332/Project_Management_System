@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item key="selection" value="razor"/>
+		<item key="wrap" value="true"/>
+		<item key="casesensitive" value="false"/>
+		<item key="wholeword" value="false"/>
+		<item key="incremental" value="false"/>
+		<item key="isRegEx" value="false"/>
+		<list key="findhistory">
+			<item value="Razor"/>
+			<item value="razro"/>
+			<item value="json"/>
+			<item value="org.apache.catalina"/>
+			<item value="javax.mail"/>
+			<item value="java."/>
+			<item value="spring-security-test"/>
+			<item value="spring-boot-starter-test"/>
+			<item value="spring-boot-devtools"/>
+			<item value="spring-boot-starter-mail"/>
+			<item value="spring-boot-starter-web"/>
+			<item value="spring-boot-starter-security"/>
+			<item value="spring-boot-starter-data-jp"/>
+			<item value="spring-boot-starter-parent"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="897"/>
+		<item key="DIALOG_Y_ORIGIN" value="209"/>
+		<item key="DIALOG_WIDTH" value="336"/>
+		<item key="DIALOG_HEIGHT" value="400"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+</section>

@@ -1,0 +1,5 @@
+package com.kartik.response;
+
+public class PaymentLinkResponse {
+
+}

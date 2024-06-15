@@ -1,0 +1,13 @@
+package com.kartik.service;
+
+import com.kartik.model.Chat;
+
+public class ChatServiceImpl implements ChatService {
+
+	@Override
+	public Chat createChat(Chat chat) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

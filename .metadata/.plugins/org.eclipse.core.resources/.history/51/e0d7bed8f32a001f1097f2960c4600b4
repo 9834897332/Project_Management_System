@@ -1,0 +1,47 @@
+package com.kartik.service;
+
+import java.util.List;
+import java.util.Optional;
+
+import com.kartik.model.Issue;
+import com.kartik.request.IssueRequest;
+
+public class IssueServiceImpl implements IssueService {
+
+	@Override
+	public Optional<Issue> getIssueById(Long issueId) throws Exception {
+		// TODO Auto-generated method stub
+		return Optional.empty();
+	}
+
+	@Override
+	public List<Issue> getIssueByProjectId(Long projectId) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Issue createIssue(IssueRequest issue, Long userid) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String deleteIssue(Long issueId, Long userid) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Issue addUserToIssue(Long issueId, Long userId) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Issue updateStatus(Long issueId, String statur) throws Exception {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,5 @@
+package com.kartik.request;
+
+public class CreateMessageRequest {
+
+}

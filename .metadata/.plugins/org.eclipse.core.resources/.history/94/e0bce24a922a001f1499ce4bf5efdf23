@@ -1,0 +1,5 @@
+package com.kartik.repository;
+
+public interface ProjectRepository {
+
+}
