@@ -1,0 +1,24 @@
+package com.kartik.controller;
+
+import java.io.IOException;
+
+import org.springframework.http.HttpStatus;
+import org.springframework.security.access.AccessDeniedException;
+import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.bind.annotation.RestControllerAdvice;
+
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
+
+@RestControllerAdvice
+public class GlobalExceptionHandler {
+
+    @ExceptionHandler(AccessDeniedException.class)
+    @ResponseStatus(HttpStatus.FORBIDDEN)
+    public void handleAccessDeniedException(HttpServletRequest request, HttpServletResponse response,
+                                            AccessDeniedException accessDeniedException) throws IOException {
+        // 403
+        response.sendError(HttpServletResponse.SC_FORBIDDEN, "Authorization Failed: " + accessDeniedException.getMessage());
+    }
+}

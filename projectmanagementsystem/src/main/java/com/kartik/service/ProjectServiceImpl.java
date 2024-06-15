@@ -61,7 +61,7 @@ public class ProjectServiceImpl implements ProjectService {
          }
          
          if(tag!=null) {
-        	 projects =projects.stream().filter(project -> project.getCategory().contains(tag))
+        	 projects =projects.stream().filter(project -> project.getTags().contains(tag))
         			 .collect(Collectors.toList());
          }
         return projects;
@@ -78,7 +78,8 @@ public class ProjectServiceImpl implements ProjectService {
 
     @Override
     public void deleteProject(Long projectId, Long userId) throws Exception {
-        getProjectById(projectId);
+        
+    	getProjectById(projectId);
         
         projectRepository.deleteById(projectId);
         
@@ -110,7 +111,7 @@ public class ProjectServiceImpl implements ProjectService {
     public void removeUserFromProject(Long projectId, Long userId) throws Exception {
     	  Project project = getProjectById(projectId);
           User user = userService.findUserById(userId);
-          if(!project.getTeam().contains(user)) {
+          if(project.getTeam().contains(user)) {
           	project.getChat().getUsers().remove(user);
           	project.getTeam().remove(user);
           }

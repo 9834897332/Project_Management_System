@@ -40,12 +40,12 @@ public class ProjectController {
 	@Autowired
      private InvitationService invitationService;
 	
-	@GetMapping
-	public ResponseEntity<List<Project>>getProjects(
+	@GetMapping 
+  	public ResponseEntity<List<Project>>getProjects(
 			
 			@RequestParam(required = false) String category,
 			@RequestParam(required = false) String tag,
-			@RequestParam("Authorization") String jwt
+			@RequestHeader("Authorization") String jwt
 			
 			)throws Exception {
 		User user = userService.findUserProfileByJwt(jwt);
