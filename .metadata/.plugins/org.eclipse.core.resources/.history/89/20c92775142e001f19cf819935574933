@@ -1,0 +1,17 @@
+package com.kartik;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+
+import com.kartik.config.RazorpayConfig;
+
+@SpringBootApplication
+@EnableConfigurationProperties(RazorpayConfig.class)
+public class ProjectmanagementsystemApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ProjectmanagementsystemApplication.class, args);
+	}
+
+}

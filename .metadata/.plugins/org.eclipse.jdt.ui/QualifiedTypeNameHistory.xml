@@ -37,4 +37,6 @@
     <fullyQualifiedTypeName name="com.kartik.model.PlanType"/>
     <fullyQualifiedTypeName name="com.kartik.model.User"/>
     <fullyQualifiedTypeName name="org.springframework.http.HttpStatus"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonProperty"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.annotation.JsonProperty.Access"/>
 </qualifiedTypeNameHistroy>

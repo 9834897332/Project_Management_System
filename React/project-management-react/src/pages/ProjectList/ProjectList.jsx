@@ -1,13 +1,20 @@
 import { MagnifyingGlassIcon, MixerHorizontalIcon } from '@radix-ui/react-icons'
-import React, { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { Card, CardContent } from '../../components/ui/card'
 import { Button } from '../../components/ui/button'
 import { ScrollArea } from '../../components/ui/scroll-area'
 import { RadioGroup, RadioGroupItem } from '../../components/ui/radio-group'
 import { Label } from '../../components/ui/label'
 import { Input } from '../../components/ui/input'
-import { unstable_batchedUpdates } from 'react-dom'
 import ProjectCard from '../Project/ProjectCard'
+import { useDispatch, useSelector } from 'react-redux'
+import { store } from '@/Redux/Store'
+import { fetchProjects, searchProjects } from '@/Redux/Project/Action'
+
+
+
+
+
 
 
 export const tags = [
@@ -27,12 +34,34 @@ export const tags = [
 const ProjectList = () => {
 
     const [keyword, setKeyword] = useState("");
-    const handleFilterChange = (section, value) => {
-        console.log("value", value, section);
+    const { project } = useSelector(store => store)
+    const dispatch = useDispatch()
+
+    const handleFilterCategory = ( value) => {
+        if(value =="all"){
+            dispatch(fetchProjects({}))
+        }
+        else
+        dispatch(fetchProjects({category:value}))
+        
+    };
+    const handleFilterTags = ( value) => {
+        if(value =="all"){
+            dispatch(fetchProjects({}))
+        }
+        else
+        dispatch(fetchProjects({tag:value}))
     };
     const handleSearchChange = (e) => {
         setKeyword(e.target.value)
-    }
+        dispatch(searchProjects(e.target.value))
+    };
+  
+        
+        
+     
+
+    console.log("project store", project)
 
     return (
         <>
@@ -43,9 +72,10 @@ const ProjectList = () => {
                     <Card className='p-5 sticky top-10'>
 
                         <div className='flex justify-between lg:w-[20rem]'>
-                            <p className='text-xl -tracking-wider'>Filters</p>
-                            <Button variant="ghost" size="icon"></Button>
-                            <MixerHorizontalIcon></MixerHorizontalIcon>
+                            <p className='text-xl -tracking-wider'>filters</p>
+                            <Button variant="ghost" size="icon">
+                                <MixerHorizontalIcon />
+                            </Button>
                         </div>
 
                         <CardContent className="mt-5">
@@ -57,7 +87,10 @@ const ProjectList = () => {
                                     </h1>
                                     <div className="pt-5">
 
-                                        <RadioGroup className="space-y-3 pt-5" defaultValue="all" onValueChange={(value) => handleFilterChange("category", value)}>
+                                        <RadioGroup 
+                                        className="space-y-3 pt-5" defaultValue="all" 
+                                        onValueChange={(value) => 
+                                        handleFilterCategory( value)}>
 
                                             <div className="flex items-center gap-2">
                                                 <RadioGroupItem value="all" id="r1" />
@@ -93,7 +126,7 @@ const ProjectList = () => {
                                     <div className="pt-5">
 
                                         <RadioGroup className="space-y-3 pt-5" defaultValue="all" onValueChange={(value) =>
-                                            handleFilterChange("tag", value)
+                                            handleFilterTags( value)
                                         }
                                         >
 
@@ -124,10 +157,10 @@ const ProjectList = () => {
 
                         <div className='relative p-0 w-full'>
 
-                            <Input onchange={handleSearchChange}
-                                placeHolder="search project"
+                            <Input onChange={handleSearchChange}
+                                placeholder="search project"
                                 className="40% px-9" />
-                            <MagnifyingGlassIcon className='absolute top-3 left-4' />
+                            <MagnifyingGlassIcon className="absolute top-3 left-4" />
 
                         </div>
 
@@ -135,9 +168,10 @@ const ProjectList = () => {
                     <div>
                         <div className="space-y-5 min-h-[74vh]">
                             {keyword
-                                ? [1, 1, 1].map((item) => <ProjectCard key={item} />)
-                                : [1, 1, 1, 1, 1].map((item) => (
-                                    <ProjectCard key={item} />
+                                ? project.searchProjects.map((item,index) => <ProjectCard 
+                                item={item} key={item.id*index} />)
+                                : project.projects?.map((item) => (
+                                    <ProjectCard key={item.id} item={item} />
 
                                 ))}
                         </div>

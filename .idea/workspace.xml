@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="84de9a8b-9f82-473e-bbb3-32b9846371b0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.metadata/.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/.org.eclipse.egit.core.cmp/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/af/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/af/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/e4/b9/22/81/c6/29/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/e4/b9/22/81/c6/29/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/e4/b9/22/81/c6/8f/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/e4/b9/22/81/c6/8f/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/e4/b9/22/81/c6/9c/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/e4/b9/22/81/c6/9c/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/e4/b9/22/81/c6/b5/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/e4/b9/22/81/c6/b5/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/e4/b9/22/81/c6/be/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/e4/b9/22/81/c6/be/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/e4/b9/22/81/c6/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/e4/b9/22/81/c6/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/e4/b9/db/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/e4/b9/db/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/history.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.indexes/history.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.markers" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.markers" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.projects/projectmanagementsystem/.syncinfo.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/.markers.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/2.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.root/5.tree" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.resources/2.snap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/1865797976.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/3497216118.index" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/3497216118.index" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.jdt.ui/jdt-images/6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.jdt/projectmanagementsystem.container" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.jdt/projectmanagementsystem.container" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback/0.log" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.m2e.logback/0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.pde.core/.cache/clean-cache.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/.plugins/org.eclipse.ui.workbench.texteditor/dialog_settings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.metadata/version.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.metadata/version.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/Auth/Login.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/Auth/Login.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/Auth/Signup.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/Auth/Signup.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/IssueDetails/CommentCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/IssueDetails/CommentCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/IssueDetails/CreateCommentForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/IssueDetails/CreateCommentForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/IssueDetails/IssueDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/IssueDetails/IssueDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/Navbar/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/Navbar/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/Project/CreateProjectForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/Project/CreateProjectForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/Project/ProjectCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/Project/ProjectCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectDetails/ChatBox.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectDetails/ChatBox.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectDetails/CreateIssueForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectDetails/CreateIssueForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectDetails/InviteUserForm.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectDetails/InviteUserForm.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectDetails/IssueCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectDetails/IssueCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectDetails/IssueList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectDetails/IssueList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectDetails/ProjectDetails.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectDetails/ProjectDetails.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectDetails/UserList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectDetails/UserList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectList/ProjectList.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/ProjectList/ProjectList.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/Subscription/Subscription.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/Subscription/Subscription.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/React/project-management-react/src/pages/Subscription/SubscriptionCard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/React/project-management-react/src/pages/Subscription/SubscriptionCard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanagementsystem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanagementsystem/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/ProjectmanagementsystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/ProjectmanagementsystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/controller/IssueController.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/controller/IssueController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/controller/PaymentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/controller/PaymentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/controller/ProjectController.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/controller/ProjectController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/controller/SubscriptionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/controller/SubscriptionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/model/Issue.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/model/Issue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/model/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/model/Subscription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/request/IssueRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/request/IssueRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/service/IssueServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/service/IssueServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/service/ProjectServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanagementsystem/src/main/java/com/kartik/service/ProjectServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projectmanagementsystem/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/projectmanagementsystem/src/main/resources/application.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2i7DSsvR9DzaIwLjuQ3yZhDEP8n" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/kartik/Downloads/Project_Management_System"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84de9a8b-9f82-473e-bbb3-32b9846371b0" name="Changes" comment="" />
+      <created>1718832724922</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1718832724922</updated>
+    </task>
+    <servers />
+  </component>
+</project>

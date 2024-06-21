@@ -10,7 +10,7 @@ public class IssueRequest {
 	
     private String title;
 	
-	private String descrption;
+	private String description;
 	
 	private String status;
 	

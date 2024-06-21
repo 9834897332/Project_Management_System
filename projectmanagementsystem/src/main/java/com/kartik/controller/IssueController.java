@@ -55,7 +55,7 @@ public class IssueController {
 		
 		Issue createdIssue = issueService.createIssue(issue, tokenUser);
 		IssueDTO issueDTO = new IssueDTO();
-		issueDTO.setDescription(createdIssue.getDescrption());
+		issueDTO.setDescription(createdIssue.getDescription());
 		issueDTO.setDueDate(createdIssue.getDueDate());
 		issueDTO.setId(createdIssue.getId());
 		issueDTO.setPriority(createdIssue.getPriority());

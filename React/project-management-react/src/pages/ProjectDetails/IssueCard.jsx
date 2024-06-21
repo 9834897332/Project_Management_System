@@ -2,20 +2,27 @@ import { Avatar, AvatarFallback } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
+import { deleteIssue } from "@/Redux/Issue/Action"
 import { DotsVerticalIcon, PersonIcon } from "@radix-ui/react-icons"
+import { useDispatch } from "react-redux"
 import { useNavigate } from "react-router-dom"
 import UserList from "./UserList"
 
 
-const IssueCard = () => {
+const IssueCard = ({item,proejectId}) => {
     const navigate = useNavigate();
+    const dispatch = useDispatch();
+       const handleIssueDelete=()=>{
+         dispatch(deleteIssue(item.id))
+       }
     return (
         <Card className="rounded-md py-1 pb-2">
 
             <CardHeader className="py-0 pb-1">
                 <div className="flex justify-between items-center">
-                    <CardTitle className="cursor-pointer" onClick={() => navigate("/project/3/issue/10")}>
-                        Create Navbar
+                    <CardTitle className="cursor-pointer"
+                     onClick={() => navigate(`/project/${proejectId}/issue/${item.id}`)}>
+                        {item.title}
                     </CardTitle>
 
                     <DropdownMenu>
@@ -29,7 +36,7 @@ const IssueCard = () => {
                             <DropdownMenuItem>In Progress</DropdownMenuItem>
                             <DropdownMenuItem>Done</DropdownMenuItem>
                             <DropdownMenuItem>Edit</DropdownMenuItem>
-                            <DropdownMenuItem>Delete</DropdownMenuItem>
+                            <DropdownMenuItem onClick={handleIssueDelete}>Delete</DropdownMenuItem>
 
                         </DropdownMenuContent>
                     </DropdownMenu>
@@ -51,7 +58,7 @@ const IssueCard = () => {
                             </Button>
                         </DropdownMenuTrigger>
                         <DropdownMenuContent>
-                            <UserList />
+                            <UserList issueDetails={item} />
                         </DropdownMenuContent>
                     </DropdownMenu>
 

@@ -3,11 +3,24 @@ import { DialogClose } from "@/components/ui/dialog";
 import { Form, FormControl, FormItem, FormField, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import { createProject } from "@/Redux/Project/Action";
+
+
 import { Cross1Icon } from "@radix-ui/react-icons";
 import { useForm } from "react-hook-form";
+import { useDispatch } from "react-redux";
 import { tags } from "../ProjectList/ProjectList";
 
 const CreateProjectForm = () => {
+  const dispatch =useDispatch()
+  
+  const handleTagsChange = (newValue) => {
+    const currentTags = form.getValues("tags");
+    const updatedTags = currentTags.includes(newValue)
+      ? currentTags.filter(tag => tag !== newValue)
+      : [...currentTags, newValue];
+    form.setValue("tags", updatedTags);
+  }
   const form = useForm({
     defaultValues: {
       name: "",
@@ -17,15 +30,9 @@ const CreateProjectForm = () => {
     },
   });
 
-  const handleTagsChange = (newValue) => {
-    const currentTags = form.getValues("tags");
-    const updatedTags = currentTags.includes(newValue)
-      ? currentTags.filter(tag => tag !== newValue)
-      : [...currentTags, newValue];
-    form.setValue("tags", updatedTags);
-  };
 
   const onSubmit = (data) => {
+    dispatch(createProject(data))
     console.log("created project data", data);
   };
 

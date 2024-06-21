@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="razor"/>
+		<item key="selection" value=""/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
+			<item value="plantype"/>
+			<item value="&#x0A;descrption&#x0A;"/>
 			<item value="Razor"/>
 			<item value="razro"/>
 			<item value="json"/>
@@ -21,7 +23,6 @@
 			<item value="spring-boot-starter-web"/>
 			<item value="spring-boot-starter-security"/>
 			<item value="spring-boot-starter-data-jp"/>
-			<item value="spring-boot-starter-parent"/>
 		</list>
 		<list key="replacehistory">
 		</list>

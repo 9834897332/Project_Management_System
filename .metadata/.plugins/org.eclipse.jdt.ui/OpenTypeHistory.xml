@@ -5,7 +5,7 @@
     <typeInfo handle="=projectmanagementsystem/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kartik.service{ChatService.java[ChatService" modifiers="513" timestamp="1718399328000"/>
     <typeInfo handle="=projectmanagementsystem/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kartik.service{EmailService.java[EmailService" modifiers="513" timestamp="1718441227000"/>
     <typeInfo handle="=projectmanagementsystem/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kartik.service{InvitationService.java[InvitationService" modifiers="513" timestamp="1718441227000"/>
-    <typeInfo handle="=projectmanagementsystem/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kartik.service{IssueService.java[IssueService" modifiers="513" timestamp="1718441227000"/>
+    <typeInfo handle="=projectmanagementsystem/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kartik.service{IssueService.java[IssueService" modifiers="513" timestamp="1718472527000"/>
     <typeInfo handle="=projectmanagementsystem/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.kartik.service{CommentService.java[CommentService" modifiers="513" timestamp="1718447135000"/>
     <typeInfo handle="=projectmanagementsystem/\/Users\/kartik\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/3.3.0\/spring-data-jpa-3.3.0.jar=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/3.3.0=/=/maven.scope=/compile=/=/maven.pomderived=/true=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1715940857000"/>
 </typeInfoHistroy>

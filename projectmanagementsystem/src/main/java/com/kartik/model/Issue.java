@@ -27,7 +27,7 @@ public class Issue {
 	
 	private String title;
 	
-	private String descrption;
+	private String description;
 	private String status;
 	private Long projectID;
 	private String priority;
